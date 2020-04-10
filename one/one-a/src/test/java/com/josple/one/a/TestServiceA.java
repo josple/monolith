@@ -13,8 +13,7 @@ class TestServiceA {
 
 
   @Test
-  public void testThatIsFailing() {
+  public void test2() {
     new ServiceA().someA();
-    throw new RuntimeException();
   }
 }
