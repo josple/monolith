@@ -10,4 +10,11 @@ class TestServiceA {
   public void test() {
     new ServiceA().someA();
   }
+
+
+  @Test
+  public void testThatIsFailing() {
+    new ServiceA().someA();
+    throw new RuntimeException();
+  }
 }
